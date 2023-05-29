@@ -1,0 +1,52 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "products_name": "Яблоко",
+      "description": "Зеленое",
+      "product_image": "",
+      "category": "Овощи",
+      "price_per_purchase": 30,
+      "date_created": "2023-05-29T00:31:56Z",
+      "last_time_modified": "2023-05-29T00:31:58.689Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "products_name": "Клубника",
+      "description": "Виктория",
+      "product_image": "",
+      "category": "Ягоды",
+      "price_per_purchase": 50,
+      "date_created": "2023-05-29T00:39:35Z",
+      "last_time_modified": "2023-05-29T00:39:36.164Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Продукты",
+      "category_desc": "Мясо"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Продукты",
+      "category_desc": "Молоко"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "Автомобили",
+      "category_desc": "BMW"
+    }
+  }
+]

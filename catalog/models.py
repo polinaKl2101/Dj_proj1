@@ -9,7 +9,7 @@ class Product(models.Model):
     product_image = models.ImageField(upload_to='prod_images/', verbose_name='изображение', **NULLABLE)
     category = models.CharField(max_length=100, verbose_name='категория')
     price_per_purchase = models.IntegerField(verbose_name='цена за покупку')
-    date_created = models.DateTimeField()
+    date_created = models.DateTimeField(auto_now_add=True, verbose_name='дата создания')
     last_time_modified = models.DateTimeField(auto_now=True, verbose_name='дата последнего изменения')
 
     def __str__(self):
